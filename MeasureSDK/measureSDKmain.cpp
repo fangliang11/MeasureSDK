@@ -1,7 +1,7 @@
-#include <GL\glew.h>
+#include <GL/glew.h>
 #include <GL/glut.h>
 
-
+//#pragma comment(lib,"glew32d.lib")  // FANG
 
 void init() {
 	glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
