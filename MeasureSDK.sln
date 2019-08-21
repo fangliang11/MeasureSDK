@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeasureSDK", "MeasureSDK\MeasureSDK.vcxproj", "{F7CD14B0-4A6F-4A98-B47B-3020C9E95548}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointsPlot3D", "PointsPlot3D\PointsPlot3D.vcxproj", "{FF35FE2D-F729-4DF4-9A40-37407E13F4E0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpencvSIFT", "OpencvSIFT\OpencvSIFT.vcxproj", "{B113A4CA-4BB9-44A9-AC96-72ED4858781D}"
@@ -19,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalibrationStereoCamera", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageAcquire", "ImageAcquire\ImageAcquire.vcxproj", "{664FA480-1C14-4FA5-82C7-585DEA1DA715}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtSDK", "QtSDK\QtSDK.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -27,14 +27,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F7CD14B0-4A6F-4A98-B47B-3020C9E95548}.Debug|x64.ActiveCfg = Debug|x64
-		{F7CD14B0-4A6F-4A98-B47B-3020C9E95548}.Debug|x64.Build.0 = Debug|x64
-		{F7CD14B0-4A6F-4A98-B47B-3020C9E95548}.Debug|x86.ActiveCfg = Debug|Win32
-		{F7CD14B0-4A6F-4A98-B47B-3020C9E95548}.Debug|x86.Build.0 = Debug|Win32
-		{F7CD14B0-4A6F-4A98-B47B-3020C9E95548}.Release|x64.ActiveCfg = Release|x64
-		{F7CD14B0-4A6F-4A98-B47B-3020C9E95548}.Release|x64.Build.0 = Release|x64
-		{F7CD14B0-4A6F-4A98-B47B-3020C9E95548}.Release|x86.ActiveCfg = Release|Win32
-		{F7CD14B0-4A6F-4A98-B47B-3020C9E95548}.Release|x86.Build.0 = Release|Win32
 		{FF35FE2D-F729-4DF4-9A40-37407E13F4E0}.Debug|x64.ActiveCfg = Debug|x64
 		{FF35FE2D-F729-4DF4-9A40-37407E13F4E0}.Debug|x64.Build.0 = Debug|x64
 		{FF35FE2D-F729-4DF4-9A40-37407E13F4E0}.Debug|x86.ActiveCfg = Debug|Win32
@@ -89,11 +81,18 @@ Global
 		{664FA480-1C14-4FA5-82C7-585DEA1DA715}.Release|x64.Build.0 = Release|x64
 		{664FA480-1C14-4FA5-82C7-585DEA1DA715}.Release|x86.ActiveCfg = Release|Win32
 		{664FA480-1C14-4FA5-82C7-585DEA1DA715}.Release|x86.Build.0 = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x86.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = Qt 5.10.0
 		SolutionGuid = {3AF1A9C7-4201-44D7-97F6-F70FC0B7110E}
 	EndGlobalSection
 EndGlobal

@@ -717,7 +717,7 @@ void ModelGL::drawPoints(float pointSize) {
 	//glPushMatrix();
 	glBegin(GL_POINTS);
 	for (int i = 0; i < modelROWNUM; i++) {
-		//glColor4f(0.0f, 0.0f, 0.5*modelCoordinateZ[i] + 0.1, 1.0f);
+		glColor4f(0.0f, 0.0f, 0.5*modelCoordinateZ[i] + 0.1, 1.0f);
 		glVertex3f(modelCoordinateX[i], modelCoordinateY[i], 1 - modelCoordinateZ[i]);
 	}
 	glEnd();

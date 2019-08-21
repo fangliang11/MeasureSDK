@@ -45,12 +45,12 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR cmdArgs, int cmdS
     DWORD style;
     DWORD styleEx;
 
-    // create model and view components for controller  为Controller类创建模型和视图类的实例
+    // create model and view components for controller  创建类的对象
     ModelGL modelGL;
     Win::ViewGL viewGL;
     Win::ViewFormGL viewFormGL(&modelGL);
 
-    // create main window   创建 main 窗口
+    // create main window   创建 main 窗口对象
     Win::ControllerMain mainCtrl;
 	//Win::ControllerFormGL FormGLCtrl(&modelGL, &viewFormGL);
 
